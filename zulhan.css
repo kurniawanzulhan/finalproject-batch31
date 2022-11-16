@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    
+    background-image: url('/img/pexels-moose-photos-1037992.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+}
+#profile{
+    display: flex;
+    background: rgb(193,230,223);
+    background: linear-gradient(50deg, rgba(193,230,223,0.4458158263305322) 49%, rgba(253,199,197,1) 50%);
+    margin: 40px;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+#image{
+    flex: 1;
+}
+
+#image img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#name{
+    flex: 2;
+    border-right: 1px solid #eeff00;
+}
+
+#detail{
+    flex: 4;
+    padding: 16px;
+}
+
+.buttons{
+    display: flex;
+}
+
+.button-kontak{
+    margin-right: 16px;
+    padding: 14px 20px;
+    color : rgb(0, 0, 0);background-color: 
+    #FDC7C5;
+
+}
+
+.button-resume{
+    margin-right: 16px;
+    padding: 14px 20px;
+    color : #fff;background-color: 
+    #c1e6df;
+
+}
+
+td{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+
+#menu-kanan{
+    margin-top: 50px;
+    height: 40px;
+    background-color: #ffffff;
+}
+#menu-kanan ul {
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+    background-color: #FDC7C5;
+}
+#menu-kanan ul li {
+    list-style-type: none;
+    display: inline-block;
+    line-height: 100px;
+    text-align: center;
+    
+}
+#menu-kanan ul li a{
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 0px 20px;
+    line-height: 40px
+    
+}
+
+#isi form input {
+    background: rgb(193,230,223);
+    background: linear-gradient(50deg, rgba(193,230,223,0.4458158263305322) 49%, rgba(253,199,197,1) 50%);
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+        body{
+            
+            background-image: url('/img/pexels-moose-photos-1037992.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        #profile{
+            display: flex;
+            background: rgb(193,230,223);
+            background: linear-gradient(50deg, rgba(193,230,223,0.4458158263305322) 49%, rgba(253,199,197,1) 50%);
+            margin: 40px;
+            padding: 20px;
+            border-radius: 50px;
+            box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.75);
+            -webkit-box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.75);
+            -moz-box-shadow: -2px -2px 5px 0px rgba(0,0,0,0.75);
+        
+        }
+        
+        #image{
+            flex: 1;
+        }
+        
+        #image img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+        
+        #name{
+            flex: 2;
+            border-right: 1px solid #eeff00;
+        }
+        
+        #detail{
+            flex: 4;
+            padding: 16px;
+        }
+        
+        .buttons{
+            display: flex;
+        }
+        
+        .button-kontak{
+            margin-right: 16px;
+            padding: 14px 20px;
+            color : rgb(0, 0, 0);background-color: 
+            #FDC7C5;
+        
+        }
+        
+        .button-resume{
+            margin-right: 16px;
+            padding: 14px 20px;
+            color : #fff;background-color: 
+            #c1e6df;
+        
+        }
+        
+        td{
+            padding-left: 16px;
+            padding-right: 16px;
+        }
+        
+        
+        
+        #menu-kanan{
+            margin-top: 50px;
+            height: 40px;
+            background-color: #ffffff;
+        }
+        #menu-kanan ul {
+            margin: 0;
+            padding: 0;
+            float: right;
+            list-style: none;
+            background-color: #FDC7C5;
+        }
+        #menu-kanan ul li {
+            list-style-type: none;
+            display: inline-block;
+            line-height: 100px;
+            text-align: center;
+            
+        }
+        #menu-kanan ul li a{
+            display: block;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            padding: 0px 20px;
+            line-height: 40px
+            
+        }
+        
+        #isi form input {
+            background: rgb(193,230,223);
+            background: linear-gradient(50deg, rgba(193,230,223,0.4458158263305322) 49%, rgba(253,199,197,1) 50%);
+        }
+
+        #card img {
+            width: 500px;
+            height: 200px;
+            margin-top: 50px;
+            width: 100%;
+            
+
+        }
+
+
+</style>
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<div class="header">
+    <div class="text-bg-primary p-3">
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#isi">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Interests</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Award</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </div>
+    <div id="menu-kanan">
+        <ul>
+            <li><a href="#isi">About</a><li>
+            <li><a href="/menu/experience.html">Experience</a><li>
+            <li><a href="/menu/education.html">Education</a><li>
+            <li><a href="/menu/skills.html">Skills</a><li>
+            <li><a href="/menu/interests.html">Interests</a><li>
+            <li><a href="/menu/award.html">Award</a><li></li>
+        </ul>
+      </div>
+    <div id="profile">
+        <div id="image">
+        <img src="1668284009786.png">
+        </div>
+
+        <div id="name">
+        <h1>Zulhan Kurniawan</h1>
+        <p>Front End Designer</p>
+        <div class="buttons">
+            <a href="kontak.html"> <button class="button-kontak">KONTAK</button></a>
+            <a href="resume.html"> <button class="button-resume">RESUME</button></a>
+        </div>
+        </div>
+
+    <div id="detail">
+        <table>
+            <tr>
+                <td>
+                    <b>Avaibility</b>
+                </td>
+                <td>
+                    Full Time
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Usia</b>
+                </td>
+                <td>
+                    17
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Lokasi</b>
+                </td>
+                <td>
+                    Palembang, Plaju Darat
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Pengalaman</b>
+                </td>
+                <td>
+                    3
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Email</b>
+                </td>
+                <td>
+                    kurniawanzulhan@gmail.com
+                </td>
+            </tr>
+            
+        </table>
+        
+    </div>
+</div>
+<div class="main">
+    <div id="isi">
+        <form action="input.html" style="margin-left: 50px;margin-right:50px;" >
+            <label for="nama"><b> Nama:</b></label><br>
+            <input type="text" id="nama" name="nama"style="width: 100%;"><br>
+            <label for="nama"><b> Role:</b></label><br>
+            <input type="text" id="nama" name="nama"style="width: 100%;"><br>
+            <label for="nama"><b>Avaibility:</b></label><br>
+            <input type="text" id="nama" name="nama"style="width: 100%;"><br>
+            <label for="nama"><b>Age:</b></label><br>
+            <input type="text" id="nama" name="nama"style="width: 100%;"><br>
+            <label for="nama"><b>Lokasi:</b></label><br>
+            <input type="text" id="nama" name="nama"style="width: 100%;"><br>
+            <label for="nama"><b>Years experience</b></label><br>
+            <input type="text" id="nama" name="nama"style="width: 100%;"><br>
+            <label for="nama"><b>Email</b></label><br>
+            <input type="text" id="nama" name="nama" style="width: 100%;"><br>
+            <input type="submit" name="submit" value="Login" style="margin: 5px auto;width: 100%;padding: 10px;border: 1px solid #fff;color: #fff;    background: rgb(193,230,223);
+            background: linear-gradient(50deg, rgba(193,230,223,0.4458158263305322) 49%, rgba(253,199,197,1) 50%);cursor: pointer;"/>
+        </form>
+    </div>
+</div>
+
+<div class="card text-bg-dark">
+    <img src="/img/menu.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small>Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+</body>
+</html>
